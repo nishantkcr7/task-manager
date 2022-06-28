@@ -3,14 +3,20 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node src/index.js",
+    "start": "nodemon src/index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.16.4",
     "mongodb": "^4.7.0",
-    "mongoose": "^5.3.16"
+    "mongoose": "^5.3.16",
+    "validator": "^10.9.0"
   },
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
 }
